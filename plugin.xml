@@ -24,6 +24,5 @@
       </dict>
     </config-file>
     <source-file src="src/ios/lockCordova.m" />
-    <pod id="Lock" fix-bundle-path="Lock/Auth0.bundle"/>
   </platform>
 </plugin>
