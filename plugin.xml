@@ -23,7 +23,6 @@
         <string>$A0DOMAIN</string>
       </dict>
     </config-file>
-    </config-file>
     <header-file src="src/ios/plugins/Lock.iOS-OSX/Lock/Lock.h" />
     <source-file src="src/ios/lockCordova.m" framework="true" />
     <access origin="https://*.auth0.com" />
