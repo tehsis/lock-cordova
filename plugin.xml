@@ -12,7 +12,7 @@
   <platform name="ios">
     <pods-config ios-min-version="9.0" use-frameworks="true"/>
     <pod id="LatestPod" />
-    <pod id="Lock" fix-bundle-path="Lock/Auth0.bundle"/>
+    <pod id="Lock" fix-bundle-path="Lock/Auth0.bundle" />
     <config-file parent="/*" target="config.xml">
       <feature name="lockCordova">
         <param name="ios-package" value="lockCordova" />
