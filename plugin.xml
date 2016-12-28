@@ -15,14 +15,6 @@
         <param name="onload" value="true" />
       </feature>
     </config-file>
-    <config-file parent="/*" target="Auth0.plist">
-      <dict>
-        <key>ClientId</key>
-        <string>$CLIENT_ID</string>
-        <key>Domain</key>
-        <string>$A0DOMAIN</string>
-      </dict>
-    </config-file>
     <header-file src="src/ios/plugins/Lock.iOS-OSX/Lock/Lock.h" />
     <source-file src="src/ios/lockCordova.m" framework="true" />
     <access origin="https://*.auth0.com" />
