@@ -1,5 +1,5 @@
 var exec = require('cordova/exec');
 
-exports.show = function(arg0, success, error) {
-    exec(success, error, "lockCordova", "show", [arg0]);
+exports.coolMethod = function(arg0, success, error) {
+    exec(success, error, "lockCordova", "coolMethod", [arg0]);
 };
