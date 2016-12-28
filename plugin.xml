@@ -3,15 +3,12 @@
   xmlns="http://apache.org/cordova/ns/plugins/1.0" 
   xmlns:android="http://schemas.android.com/apk/res/android">
   <name>lockCordova</name>
-  <dependency id="cordova-plugin-cocoapod-support"/>
   <preference name="CLIENT_ID" />
   <preference name="A0DOMAIN" />
   <js-module name="lockCordova" src="www/lockCordova.js">
     <clobbers target="cordova.plugins.lockCordova" />
   </js-module>
   <platform name="ios">
-    <pods-config ios-min-version="9.0" use-frameworks="true"/>
-    <pod id="Lock" fix-bundle-path="Lock/Auth0.bundle" />
     <config-file parent="/*" target="config.xml">
       <feature name="lockCordova">
         <param name="ios-package" value="lockCordova" />
