@@ -23,6 +23,6 @@
       </dict>
     </config-file>
     <source-file src="src/ios/lockCordova.m" />
-    <header-file src="src/ios/plugins/Lock.iOS-OSX/Lock/Lock.h">
+    <header-file src="src/ios/plugins/Lock.iOS-OSX/Lock/Lock.h" />
   </platform>
 </plugin>
