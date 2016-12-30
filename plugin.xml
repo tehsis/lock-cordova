@@ -15,9 +15,8 @@
         <param name="ios-package" value="lockCordova" />
       </feature> 
       <pods-config ios-min-version="10.0" use-frameworks="true"/>
-        <pod id="LatestPod" />
-        <pod id="Lock" fix-bundle-path="Lock/Auth0.bundle"/>
-      </pods-config>
+      <pod id="LatestPod" />
+      <pod id="Lock" fix-bundle-path="Lock/Auth0.bundle" />
     </config-file>
     <config-file parent="CFBundleURLTypes" target="Auth0.plist">
       <dict>
