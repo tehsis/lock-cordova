@@ -8,6 +8,7 @@
   <js-module name="lockCordova" src="www/lockCordova.js">
     <clobbers target="cordova.plugins.lockCordova" />
   </js-module>
+  <dependency id="cordova-plugin-cocoapod-support"/>
   <platform name="ios">
     <config-file parent="/*" target="config.xml">
       <feature name="lockCordova">
